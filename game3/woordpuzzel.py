@@ -51,11 +51,11 @@ class WordPuzzleApp:
 
         tk.Button(controle_frame, text="⬅️ Laatste wissen", font=("Arial", 10),
                   width=16, command=self.remove_last_word).grid(row=0, column=1, padx=5)
-
+    # hier add je de woorden
     def add_word(self, woord):
         self.input.append(woord)
         self.update_display()
-        if len(self.input) ==1 len(self.correct):
+        if len(self.input) == len(self.correct):
             if self.input == self.correct:
                 self.output.config(text=" Zin klopt! Code: 0")
             else:
