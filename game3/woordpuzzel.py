@@ -55,7 +55,7 @@ class WordPuzzleApp:
     def add_word(self, woord):
         self.input.append(woord)
         self.update_display()
-        if len(self.input) == len(self.correct):
+        if len(self.input) ==1 len(self.correct):
             if self.input == self.correct:
                 self.output.config(text=" Zin klopt! Code: 0")
             else:
