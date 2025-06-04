@@ -7,7 +7,10 @@ class WordPuzzleApp:
         self.root = root
 
         # De correcte zin
-        self.correct = ["Jan", "weet", "niet", "waarom", "met", "taxi", "mee", "moet"]
+        self.correct = [
+            "Jan", "weet", "niet", "waarom",
+            "met", "taxi", "mee", "moet"
+        ]
         self.input = []
 
         # Achtergrondkleur
